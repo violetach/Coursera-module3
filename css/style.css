@@ -1,0 +1,87 @@
+#header-nav {
+  background-color: grey;
+  border: 3px solid black;
+}
+
+.navbar-collapse{
+  border-top: 0;
+}
+
+#nav-list{
+  margin-top: -0.5px;  
+  margin-bottom: 0px;  
+}
+
+#nav-list li {
+  border: 1px solid black;  
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header {
+  position: relative;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 36px;  
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-toggle {
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+}
+
+.main-content {
+  padding: 1.5em;
+}
+
+.row h1 {
+  font-weight: bold;
+}
+
+.main-content h3,
+.main-content p {
+  background-color: grey;
+  margin: 0;
+  padding: 0.5em 1.5em;
+  font-weight: bold;
+  color: black;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768) and (max-width: 991px) {
+
+}
+
+@media ( max-width: 767px) {
+  #collapsable-nav {
+    background-color: white;
+  }
+
+  .main-content {
+     padding: 1.5em 5em;
+  }
+}
